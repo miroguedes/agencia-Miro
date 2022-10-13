@@ -21,6 +21,8 @@ nav {
     font-size: 2rem; 
     color: rgb(109, 32, 32);
     padding-left: 150px;
+    
+    
 }
 
 #mktdigital{
@@ -288,13 +290,14 @@ footer {
 
 #copyright {
     width: 100vw;
+    
 }
 
 #copyright p{
     text-align: center;
     background-color: rgb(101, 101, 199);
-    height: 40px;
     color: white;
-    padding-top: 10px;
+    height: 30px;
+    padding-top: 5px;
 
 }
