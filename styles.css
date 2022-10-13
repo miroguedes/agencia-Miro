@@ -211,7 +211,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 640px;
+    height: 450px;
     background-image: url(imagens/curve-light-blue-background-abstract-free-vector.webp);
     
 }
@@ -233,7 +233,7 @@ nav {
 }
 
 #consultagratis img{
-    height: 430px;
+    height: 450px;
     width: auto;
     margin-bottom: 0px;
 }
@@ -250,7 +250,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
-    height: 235px;
+    height: 180px;
     background-color: rgb(54, 54, 150);
     width: 100vw;
     font-size: 1rem;
