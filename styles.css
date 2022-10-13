@@ -10,6 +10,24 @@ body {
     margin: auto;
 }
 
+nav {
+    padding-top: 30px;
+}
+
+nav p {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem; 
+    color: rgb(109, 32, 32);
+    padding-left: 150px;
+}
+
+#logo img{
+    width: 50px;
+    height: auto;
+}
+
 #main {
     display: flex;
     flex-direction: row;
@@ -38,8 +56,9 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2.7rem;
     width: 380px;
+    color: rgb(116, 109, 109);
 }
 
 #maintext p {
