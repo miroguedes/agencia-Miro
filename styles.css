@@ -260,13 +260,20 @@ footer {
 
 
 #cttserv img {
-    width: 45px;
+    width: 30px;
     height: auto;
 }
 
 #contato {
     display: flex;
     flex-direction: column;
+}
+
+#cttzap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #social {
