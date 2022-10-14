@@ -12,11 +12,37 @@ body {
 
 nav {
     padding-top: 30px;
-}
-
-#logo {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-top: 40px;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 25px;
+    color: rgb(243, 159, 2);
+    font-weight: bold;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    color: rgb(109, 32, 32);
+}
+
+.russo {
     font-family: 'Russo One', sans-serif;
     font-size: 2rem; 
     color: rgb(109, 32, 32);
@@ -25,15 +51,17 @@ nav {
     
 }
 
+
 #mktdigital{
     padding-left: 155px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .9rem;
+    font-family: 'Russo One', sans-serif;
+    font-size: .85rem;
     font-weight: bold
     
 }
 
 #main {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -137,6 +165,129 @@ nav {
     height: 300px;
     border-radius: 8px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+}
+
+#adwordscontainer {
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(109, 32, 32, 0.9), rgba(109, 32, 32, 0.9)), url(imagens/adsmainimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#adwordscontainer h2{
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(243, 159, 2);
+
+}
+
+#adwordscontainer h3{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(243, 159, 2);
+
+}
+
+#adwordscontainer p{
+    text-align: center;
+    line-height: 25px;
+    color: white;
+   
+
+}
+
+#adwordstexto {
+    width: 700px;
+}
+
+#seocontainer {
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(109, 32, 32, 0.9), rgba(109, 32, 32, 0.9)), url(imagens/seomainimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#seocontainer h2{
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(243, 159, 2);
+
+}
+
+#seocontainer h3{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(243, 159, 2);
+
+}
+
+#seocontainer p{
+    text-align: center;
+    line-height: 25px;
+    color: white;
+   
+
+}
+
+#seotexto {
+    width: 700px;
+}
+
+#landingcontainer {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(109, 32, 32, 0.9), rgba(109, 32, 32, 0.9)), url(imagens/landingmainimg.png);
+    
+    
+}
+
+#landingcontainer h2{
+    text-align: justify;
+    padding-bottom: 20px;
+    color: rgb(243, 159, 2);
+    font-weight: bold;
+
+}
+
+#landingcontainer h3{
+    text-align: justify;
+    padding-bottom: 25px;
+    color: rgb(243, 159, 2);
+    
+
+}
+
+#landingcontainer h4{
+    text-align: justify;
+    color: rgb(243, 159, 2);
+    
+
+}
+
+#landingcontainer p{
+    text-align: justify;
+    line-height: 25px;
+    color: white; 
+      
+}
+
+#landingtexto {
+    width: 700px;
+    
+    
 }
 
 
