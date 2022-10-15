@@ -101,70 +101,85 @@ a :hover {
     line-height: 25px;
 }
 
-
-#nossosservicos {
-    background-image: url(imagens/curve-light-blue-background-abstract-free-vector.webp);
-    height: 640px;
-}
-
-#nossosservicos h2{
-    text-align: center;
-    padding-top: 85px;
-    letter-spacing: 3px;
-}
-
 #servicoscontainer {
     padding-top: 90px;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    height: 450px;
+    
 }
+
+#nossosservicos {
+    background-image: url(imagens/curve-light-blue-background-abstract-free-vector.webp);
+    height: auto;
+    margin-top: 0px;
+}
+
+#nossosservicos h2{
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+
+
 
 #nossosservicos h3 {
     text-align: center;
     padding-top: 20px;
+    margin: auto;
     
 }
 
 #nossosservicos p {
     line-height: 25px;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: auto;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #sitesresponsivos {
     background-color: white;
-    height: 300px;
+    height: 320px;
     width: 23%;
     border-radius: 8px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    width: auto;
+    margin-right: 20px;
 }
 
 #copy {
     background-color: white;
     width: 23%;
-    height: 300px;
+    height: 320px;
     border-radius: 8px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    width: auto;
+    margin-right: 20px;
 }
 
 #adwords {
     background-color: white;
     width: 23%;
-    height: 300px;
+    height: 320px;
     border-radius: 8px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    width: auto;
+    margin-right: 20px;
 }
 
 #seo {
     background-color: white;
     width: 23%;
-    height: 300px;
+    height: 320px;
     border-radius: 8px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    width: auto;
+    margin-right: 20px;
 }
 
 #adwordscontainer {
@@ -286,6 +301,55 @@ a :hover {
 
 #landingtexto {
     width: 700px;
+    
+    
+}
+
+#duvidascontainer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(109, 32, 32, 0.9), rgba(109, 32, 32, 0.9)), url(imagens/bluedoubt.jpg);
+    
+    
+}
+
+#duvidascontainer h2{
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(243, 159, 2);
+    font-weight: bold;
+
+}
+
+#duvidascontainer h3{
+    text-align: justify;
+    padding-bottom: 25px;
+    color: rgb(243, 159, 2);
+    
+
+}
+
+#duvidascontainer h4{
+    text-align: justify;
+    color: rgb(243, 159, 2);
+    
+
+}
+
+#duvidascontainer p{
+    text-align: justify;
+    line-height: 25px;
+    color: white; 
+      
+}
+
+#duvidastexto {
+    width: 700px;
+    padding-bottom: 50px;
     
     
 }
@@ -451,4 +515,156 @@ footer {
     height: 30px;
     padding-top: 5px;
 
+}
+
+
+/*media iphone*/
+
+@media (max-width:416px){
+
+
+    #main {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        
+    }
+    
+    #main img {
+        display: none;
+    }
+    
+    #maintext {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+    }
+    
+    #maintext h1 {
+        font-size: 1.9rem;
+    }
+    
+    #maintext h2 {
+        padding-bottom: 10px;
+        font-size: 1.8rem;
+        width: 380px;
+        text-align: justify;
+    }
+
+
+    #servicoscontainer {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1500px;
+        
+    }
+    
+    #nossosservicos {
+        background-image: url(imagens/curve-light-blue-background-abstract-free-vector.webp);
+        height: auto;
+    }
+    
+    #nossosservicos h2{
+        text-align: center;
+        padding-top: 50px;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+        
+    }
+     
+      
+    #sitesresponsivos {
+        margin-bottom: 15px;
+        margin: auto;
+    }
+    
+    #copy {
+        margin-bottom: 15px;
+        margin: auto;
+    }
+    
+    #adwords {
+        margin-bottom: 15px;
+        margin: auto;
+    }
+    
+    #seo {
+        
+        margin: auto;
+    }
+
+    
+    #vantagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        padding-bottom: 100px;
+        padding-top: 70px;
+       
+    }
+    
+    #vantagens img {
+        width: 70px;
+       
+        
+    }
+    
+    #vantagensh3 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 100px;
+              
+    
+    }
+
+    #parcelamento {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+       
+    .pbold {
+        font-weight: bold;
+        font-size: 1.3rem;
+        
+    }
+    
+    #dominiogratis {
+        width: 350px;
+        margin: 0 auto;
+    }
+    
+    #faleagora {
+        position: fixed;
+        width: 150px;
+        top: 580px;
+        left: 240px;
+    }
+
+    #consultagratis {
+        flex-direction: column;
+        width: 100vw;
+              
+    }
+
+    #consultagratis img{
+        display: none;
+    }
+    
+    #contato {
+        display: none;
+    }
+    
+
+    
 }
