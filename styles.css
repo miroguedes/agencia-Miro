@@ -860,10 +860,20 @@ footer {
         margin-bottom: 15px;
         margin: auto;
     }
+
+    #adwords a{  
+        color: rgb(109, 32, 32);
+        text-decoration: none;
+    } 
     
     #seo {
         
         margin: auto;
+    }
+
+    #seo a{
+        color: rgb(109, 32, 32);
+        text-decoration: none;
     }
 
     
