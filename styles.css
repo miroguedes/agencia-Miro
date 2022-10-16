@@ -36,11 +36,20 @@ nav ul li {
 
 a {
     text-decoration: none;
+    
 }
 
 a :hover {
     color: rgb(109, 32, 32);
 }
+
+#adwords a{  
+    color: rgb(109, 32, 32);
+} 
+
+#seo a{  
+    color: rgb(109, 32, 32);
+} 
 
 .russo {
     font-family: 'Russo One', sans-serif;
