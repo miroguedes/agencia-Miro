@@ -664,6 +664,53 @@ footer {
         
     }
      
+    
+    #sitesresponsivos h3 {
+        padding-top: 35px;
+    }
+
+    #sitesresponsivos p {
+    width: 450px;
+    padding-top: 20px;
+        
+    }
+    
+    #copy h3{
+        padding-top: 35px; 
+        
+    }
+
+    #copy p {
+        width: 450px;
+        padding-top: 20px;
+    }
+    
+    #adwords h3 {
+        padding-top: 35px;
+    }
+
+    #adwords p {
+        width: 450px;
+        padding-top: 20px;
+    }
+    
+    
+    
+    #seo {
+        height: 320px;
+        width: auto;
+        margin-right: 20px;
+    }
+
+
+    #seo h3 {
+        padding-top: 35px;
+    }
+
+    #seo p {
+        width: 450px;
+        padding-top: 20px;
+    }
       
     #sitesresponsivos {
         margin-bottom: 15px;
@@ -857,6 +904,14 @@ footer {
         width: 350px;
         margin: 0 auto;
     }
+
+    #parcelamento p {
+        width: 430px;
+    }
+
+    #dominiogratis p {
+        width: 430px;
+    }
     
     #faleagora {
         position: fixed;
@@ -990,6 +1045,53 @@ footer {
     #sitesresponsivos {
         margin-bottom: 15px;
         margin: auto;
+    }
+
+    #sitesresponsivos h3 {
+        padding-top: 35px;
+    }
+
+    #sitesresponsivos p {
+    width: 450px;
+    padding-top: 20px;
+        
+    }
+    
+    #copy h3{
+        padding-top: 35px; 
+        
+    }
+
+    #copy p {
+        width: 450px;
+        padding-top: 20px;
+    }
+    
+    #adwords h3 {
+        padding-top: 35px;
+    }
+
+    #adwords p {
+        width: 450px;
+        padding-top: 20px;
+    }
+    
+    
+    
+    #seo {
+        height: 320px;
+        width: auto;
+        margin-right: 20px;
+    }
+
+
+    #seo h3 {
+        padding-top: 35px;
+    }
+
+    #seo p {
+        width: 450px;
+        padding-top: 20px;
     }
 
     #adwordscontainer {
@@ -1167,6 +1269,14 @@ footer {
         width: 350px;
         margin: auto;
         margin-bottom: 30px;
+    }
+
+    #parcelamento p {
+        width: 400px;
+    }
+
+    #dominiogratis p {
+        width: 400px;
     }
        
     .pbold {
@@ -1508,6 +1618,10 @@ footer {
     
     #contato {
         display: none;
+    }
+
+    #copyright {
+        font-size: .8rem;
     }
     
 }
