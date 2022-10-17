@@ -724,8 +724,8 @@ footer {
     #faleagora {
         position: fixed;
         width: 150px;
-        top: 650px;
-        left: 240px;
+        top: 600px;
+        left: 150px;
     }
 
     #consultagratis {
@@ -744,7 +744,8 @@ footer {
     
 }
 
-@media (max-width:585px){
+
+@media (max-width:730px){
     .nav-bar {
         padding: 1.5rem 4rem;
     }
