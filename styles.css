@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .logo h1 {
     color: #fff;
 }*/
@@ -635,6 +634,10 @@ footer {
         text-align: center;
     }
 
+    #maintext p {
+        text-align: center;
+    }
+
 
     #servicoscontainer {
         padding-top: 0px;
@@ -950,6 +953,10 @@ footer {
         padding-bottom: 10px;
         font-size: 1.8rem;
         width: 380px;
+        text-align: center;
+    }
+
+    #maintext p {
         text-align: center;
     }
 
@@ -1270,6 +1277,9 @@ footer {
         text-align: center;
     }
 
+    #maintext p {
+        text-align: center;
+    }
 
     #servicoscontainer {
         padding-top: 0px;
