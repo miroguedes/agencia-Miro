@@ -1437,6 +1437,46 @@ footer {
         margin: auto;
     }
 
+    #sitesresponsivos h3 {
+        padding-top: 35px;
+    }
+
+    #sitesresponsivos p {
+    width: 370px;
+    padding-top: 20px;
+        
+    }
+    
+    #copy h3{
+        padding-top: 35px; 
+        
+    }
+
+    #copy p {
+        width: 370px;
+        padding-top: 20px;
+    }
+    
+    #adwords h3 {
+        padding-top: 35px;
+    }
+
+    #adwords p {
+        width: 370px;
+        padding-top: 20px;
+    }
+    
+        
+    #seo h3 {
+        padding-top: 35px;
+    }
+
+    #seo p {
+        width: 370px;
+        padding-top: 20px;
+    }
+
+
     #adwordscontainer {
         height: auto;
         width: 100%;
@@ -1582,10 +1622,12 @@ footer {
     
     }
 
-    #parcelamento {
-        width: 350px;
-        margin: auto;
-        margin-bottom: 30px;
+    #parcelamento p {
+        width: 280px;
+    }
+
+    #dominiogratis p {
+        width: 280px;
     }
        
     .pbold {
