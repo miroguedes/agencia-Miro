@@ -549,6 +549,67 @@ footer {
 
 }
 
+form {
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+form p {
+    margin-left: 15px;
+}
+
+#nome {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+#email {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+#telefone {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+#select {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+#exampleTextarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 250px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.btn {
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    
+}
 
 
 
