@@ -1,4 +1,29 @@
-*{
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<script src="js/script.js"></script>
+<meta name="description" content="Criação de sites e landing pages, gerenciamento de campanhadas Google Ads e otimização de sites.">
+    <title>Criação de sites e landing pages | Marketing Digital | Tags</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1XVNWW1D1N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1XVNWW1D1N');
+</script>
+    <style>
+        *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -212,7 +237,7 @@ a:hover {
 }
 
 #adwordscontainer {
-    height: auto;
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,101 +247,34 @@ a:hover {
     background-size: cover;
     
 }
-
-#addscontainer {
-    background: linear-gradient(rgba(109, 32, 32, 0.9), rgba(109, 32, 32, 0.9)), url(imagens/adsmainimg.jpg);
-        
-}
-
-#addscontainer h2, h3 {
-    color: rgb(243, 159, 2);
-    text-align: center;
-}
-
-#addscontainer p {
-    color:white;
-    text-align: center;
-    
-}
-
-#addscontainer li {
-    color:white;
-}
-
-#addstext {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 25px;
-    
-    
-}
-
-#addstext2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 25px;
-    
-    
-}
-
-#adwordscontainer2 {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(rgba(109, 32, 32, 0.9), rgba(109, 32, 32, 0.9)), url(imagens/adsmainimg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 #adwordscontainer h2{
-    padding-top: 35px;
     text-align: center;
     padding-bottom: 40px;
     color: rgb(243, 159, 2);
-    display: flex;
-    justify-content: center;
 
 }
+
+
 
 #adwordscontainer h3{
     text-align: center;
     padding-bottom: 25px;
     color: rgb(243, 159, 2);
-    display: flex;
-    margin-left: auto;
-    margin-right:auto;
-    justify-content: center;
+
 }
 
 #adwordscontainer p{
     text-align: center;
     line-height: 25px;
     color: white;
-    width: 750px;
+   
+
 }
 
-#adwordscontainer ul {
-    padding-bottom: 25px;
-    justify-content: center;
+#adwordstexto {
+    width: 700px;
 }
-
-#adwordscontainer li {
-    color: white;
-    line-height: 30px;
-}
-
-
 
 #seocontainer {
     height: 630px;
@@ -616,7 +574,7 @@ footer {
 
 }
 
-form {
+.form-group {
     padding: 10px;
     width: 300px;
     margin-left: auto;
@@ -624,11 +582,11 @@ form {
     border: 1px solid black;
 }
 
-form p {
+.control-label  {
     margin-left: 15px;
 }
 
-#nome {
+#txtnome {
     margin-top: 2px;
     margin-bottom: 10px;
     width: 250px;
@@ -636,7 +594,7 @@ form p {
     padding: 8px;
 }
 
-#email {
+#txtemail {
     margin-top: 2px;
     margin-bottom: 10px;
     width: 250px;
@@ -644,7 +602,7 @@ form p {
     padding: 8px;
 }
 
-#telefone {
+#txttel {
     margin-top: 2px;
     margin-bottom: 10px;
     width: 250px;
@@ -660,7 +618,7 @@ form p {
     padding: 8px;
 }
 
-#exampleTextarea {
+#comment {
     margin-top: 10px;
     height: 100px;
     width: 250px;
@@ -682,9 +640,6 @@ form p {
     padding-bottom: 20px;
     text-align: center;
 }
-
-
-
 
 @media (max-width:730px){
     .nav-bar {
@@ -1791,3 +1746,204 @@ form p {
     }
    
 }
+
+</style>
+
+</head>
+<body>
+
+<header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <span><p class="russo">&#10094/&#10095Tags</p><p id="mktdigital">marketing digital</p></span>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../index.html" class="nav-link">&#10094/&#10095 home</a></li>
+                    <li class="nav-item"><a href="../criacaositeslandingpages.html" class="nav-link">&#10094/&#10095 sites e landings</a></li>
+                    <li class="nav-item"><a href="../googleads.html" class="nav-link">&#10094/&#10095 google ads</a></li>
+                    <li class="nav-item"><a href="../seo.html" class="nav-link">&#10094/&#10095 seo</a></li>
+                    <li class="nav-item"><a href="../duvidasfrequentes.html" class="nav-link">&#10094/&#10095 dúvidas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">&#10094/&#10095 contato</a></li>
+                    <li class="nav-item"><a href="https://tagsmarketingdigital.com.br/blog/" target="_blank" class="nav-link">&#10094/&#10095 blog</a></li>
+                    
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+            <li class="nav-item"><a href="../index.html" class="nav-link">&#10094/&#10095 home</a></li>
+                    <li class="nav-item"><a href="../criacaositeslandingpages.html" class="nav-link">&#10094/&#10095 sites e landings</a></li>
+                    <li class="nav-item"><a href="../googleads.html" class="nav-link">&#10094/&#10095 google ads</a></li>
+                    <li class="nav-item"><a href="../seo.html" class="nav-link">&#10094/&#10095 seo</a></li>
+                    <li class="nav-item"><a href="../duvidasfrequentes.html" class="nav-link">&#10094/&#10095 dúvidas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">&#10094/&#10095 contato</a></li>
+                    <li class="nav-item"><a href="https://tagsmarketingdigital.com.br/blog/" target="_blank" class="nav-link">&#10094/&#10095 blog</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="main">
+        <img src="imagens/faleconosco.png" alt="sitesresponsivos">
+        <div id="maintext"><h1>Fale Conosco</h1><h2>SERÁ UM PRAZER SABER O QUE VOCÊ PRECISA.</h2><p>Quer saber quanto vai investir no seu novo site, campanha de Google Ads ou otimização do seu site?</p><p>Mande uma mensagem agora mesmo e entraremos em contato o mais rápido possível!</p></div>
+    </section>
+
+<!-- FORMULARIO DE CONTATO
+================================================== -->
+
+<div>
+
+    <h2 style="text-align: center;">FORMULÁRIO DE CONTATO</h2>
+    <form class="form-horizontal" data-toggle="validator" name="ajax_form" id="ajax_form" method="post" autocomplete="off" action="email.php">
+		
+    
+
+        <div class="form-group">
+            <label class="control-label " for="txtnome">Nome:</label>
+            <div class="col-sm-7">
+                <input type="text" class="form-control" id="txtnome" name="nome" placeholder="Digite seu nome aqui." required>
+                            <div class="help-block with-errors"></div>
+            </div>
+        
+
+        
+            <label class="control-label " for="txtemail">E-mail:</label>
+            <div class="col-sm-7">
+                <input type="email" class="form-control" id="txtemail" name="email" placeholder="Digite seu e-mail aqui."
+                       data-error="Por favor, informe um e-mail correto." required>
+                             <div class="help-block with-errors"></div>
+            </div>
+        
+
+
+        
+            <label class="control-label " for="txttel">Telefone:</label>
+            <div class="col-sm-7">
+                <input type="tel" class="form-control" id="txttel" name="telefone" placeholder="Digite seu telefone." required>
+                <span class="help-block"></span>
+            </div>
+        
+
+       
+                <p class="control-label ">Assunto</p>
+                <select class="control-label " name="assunto" required id="select">
+                <option value="" selected="selected" disabled="disabled"> -- Escolha uma opção --</option>
+                <option value="site">Quero_um_site</option>
+                <option value="Google Ads">Google_Ads</option>
+                <option value="otimização">Otimização</option>
+                <option value="outros">Outros</option>
+                </select>
+        
+
+
+        
+            <label class="control-label col-sm-2" for="pwd">Observações:</label>
+            <div class="col-sm-7">
+                <textarea class="form-control" rows="5" id="comment" name="observacoes" placeholder="Digite informações complementares." required></textarea>
+            </div>
+        
+
+
+        
+            <div class="col-sm-offset-2 ">
+                <div data-alerts="alerts" data-titles="{'success': '<em>success!</em>'}" data-ids="myid" data-fade="4000"></div>
+                <button type="submit" id="warn-me" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-danger">Resetar</button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+<!-- ============FINAL DO FORMULARIO DE CONIATO=============== -->
+
+
+
+
+<!-- ============SCRIPTS PARA ENVIO VIA AJAX E MENSAGEM DE SUCESSO AO ENVIAR=============== -->
+
+
+<script>
+
+    $("#ajax_form").submit(function() {
+        $(document).trigger("add-alerts", [
+            {
+                'message': "Mensagem enviada com sucesso.",
+                'priority': 'success'
+            }
+        ]);
+    });
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#ajax_form').submit(function(){
+            var dados = jQuery( this ).serialize();
+
+            jQuery.ajax({
+                type: "POST",
+                data: dados,
+                url: "email.php",
+                success: function()
+                {
+                    document.ajax_form.reset();
+
+                }
+            });
+
+            return false;
+        });
+    });
+</script>
+
+<a href="https://api.whatsapp.com/send?phone=5511981633456&text=" target="_blank"><img src="imagens/faleagora.png" alt="botão whatsapp" id="faleagora"></a>
+    <h3 id="vantagensh3">Por que criar seu site com a gente?</h3>
+    <section id="vantagens">
+        
+        <div id="parcelamento">
+            <div><img src="imagens/cartaodecredito.png" alt="seu site em até 12 vezes"></div>
+            <div><p class="pbold">Parcelamento em até 12x</p><p >Oferecemos parcelamento no cartão de crédito em até 12 vezes para a execução do projeto do seu site ou landing page. Desta forma não tem mais motivo para a sua empresa não estar na Internet.</p></div>
+        </div>
+
+        <div id="dominiogratis">
+            <div><img src="imagens/www.png" alt="1 ano de domínio grátis"></div>
+            <div><p class="pbold">1 ano de domínio e hospedagem grátis</p><p>Ao fechar o projeto do seu site conosco você ganhará de bônus 1 ano de hospedagem e domínio grátis.</p></div>
+        </div>
+    </section>
+    
+    <section id="consultagratis">
+        <div id="textoconsulta"><span><h2>Receba uma Análise GRÁTIS do seu Projeto</h2 ></span><br><span><h3>Vamos juntos buscar a melhor estratégia para o seu SITE conquistar os primeiros lugares no Google de forma orgânica e patrocinada.</p></h3></div>
+        <div><img src="imagens/consultagratisprojeto.png" alt="analise gratuita do seu site"></div>
+    </section>
+
+    
+        
+    <footer>
+        <div id="cttserv">
+            <div id="contato"><span>CONTATO</span><div id="cttzap"><img src="imagens/whatsapp.png" alt=""><span>11 98163-3456</span></div></div>
+            <div id="servicos"><span>SERVIÇOS</span><span>Criação de Sites</span>
+            <span>Google Ads</span>
+            <span>Consultoria de SEO</span>
+        </div>
+            <div id="social"><span>SIGA!</span><a href="https://www.instagram.com/tags_mkt_digital/" target="_blank"><img src="imagens/instagram.png" alt=""></a></div>            </div>
+        <span id="copyright"><p>(11) 98163-3456</p>
+             <p>contato@tagsmarketingdigital.com.br</p></span>
+             
+    
+</footer>
+
+<script>
+    function menuShow() {
+        let menuMobile = document.querySelector('.mobile-menu');
+        if (menuMobile.classList.contains('open')) {
+            menuMobile.classList.remove('open');
+            document.querySelector('.icon').src = "imagens/menu_white_36dp.png";
+        } else {
+            menuMobile.classList.add('open');
+            document.querySelector('.icon').src = "imagens/close_white_36dp.png";
+        }
+    }
+</script>
